@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+header,
+main,
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+    border-bottom: 3px solid grey;
+}
+header::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.photo {
+    margin-left: 80px;
+    float: left;
+}
+.photo img{
+    border-radius: 100px;
+}
+.info{
+    margin-left: 280px;
+}
+header h1 {
+    margin: 30px 0 0 50px;
+}
+header h3 {
+    margin: 0 0 0 50px;
+}
+header ul{
+    margin: 20px 0 0 50px;
+    padding: 0;
+    list-style: none;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: #3f3933;
+} 
+
+/*НАВИГАЦИЯ*/
+nav ul {
+    float: right;
+    list-style: none;
+    margin: 30px 20px 0 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    line-height: 50px;
+}
+nav ul li:hover{
+    background-color: rgba(226, 231, 226, 0.582);
+}
+/*НАВИГАЦИЯ*/
+/*Конец HEADER*/
+header h3 {
+    margin: 0 0 0 80px;
+}
+.contact {
+    list-style: none;
+    padding: 0;
+    margin-left: 50px;
+    margin-top: 0;
+}
+.contact li{
+    float:left;
+    margin-right: 15px;
+}
+.contact li a {
+    display: inline-block;
+    vertical-align:top;
+}
+.contact img {
+    width: 20px;
+    height: 20px;
+}
+main{
+    padding: 0;
+}
+.experience{
+    margin-left: 250px;
+    margin-top: 20px;
+    border-bottom: 1px solid grey;
+}
+.experience p span {
+    float: right;
+}
+.company {
+    font-weight: 600;
+}
+.education, 
+footer {
+    border-bottom: none;
+}
+
+.skills{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.skills li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.skills img:hover{
+    transform: scale(1.2, 1.2);
+}
+/*footer*/
+footer{
+    padding-bottom: 10px;
+}
+.github,
+.socialNetwork,
+.rsscholl{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    font-weight: 900;
+}
+.wrapperSocial{
+    display: inline-block;
+    text-align: center;
+}
+footer img {
+    height: 50px;
+    margin-right: 10px;
+}
+footer img:hover{
+    transform: scale(1.2, 1.2);
+}

@@ -1,0 +1,122 @@
+@media screen and (max-width: 1439px){
+    .header-content-container {
+        max-width: 768px;
+        padding: 35px 50px;
+    }
+    .header-content {
+        height: 47px;
+    }
+    /*welcome */
+    .welcome-container-content{
+        max-width: 768px;
+        padding: 40px 50px 70px 50px;
+    }
+    .welcome-content {
+        flex-direction: row-reverse;
+    }
+    .welcome-learn-content {
+        width: 346px;
+        height: 310px;
+    }
+    .welcome-img {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+    }
+    .welcome-img img {
+        width: 280px;
+        height: 254px;
+    }
+    .welcome-section h1 {
+        font-size: 35px;
+        margin: 0;
+    }
+    .welcome-section p {
+        font-size: 16px;
+        line-height: 25px;
+        margin: 31px 0 0 5px;
+    }
+    .welcome-section button {
+        margin: 35px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .nav {
+        display: none;
+    }
+    .header-content-container {
+        min-width: 320px;
+        padding: 36px 25px;
+    }
+    .header-content {
+        height: 24px;
+    }
+    .header-menu {
+        display: grid;
+        margin-top: -3px;
+        grid-template-columns: 1fr 0fr 1fr;
+    }
+    /*welcome */
+    .welcome-container-content{
+        min-width: 320px;
+        padding: 24px 25px;
+    }
+    .welcome-img {
+        display: none;
+    } 
+    .welcome-learn-content {
+        flex-grow: 2;
+    } 
+    .welcome-section {
+        width: 100%;
+    }
+    .welcome-section h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .welcome-section p {
+        font-size: 16px;
+        line-height: 25px;
+        margin: 21px 0 0 0
+    }
+    .welcome-section button {
+        width: 100px;
+        height: 34px;
+        font-size: 10px;
+        line-height: 20px;
+        margin: 25px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .header-content {
+        grid-template-columns: 1fr 1fr 0fr;
+    }
+    .header-container,
+    .main-container-welcome {
+        min-width: 250px;
+        padding: 0px 10px;
+        margin: 0;
+    }
+    .header-content-container,
+    .welcome-container-content {
+        min-width: 250px;
+        padding: 25px 10px;
+        margin: 0;
+    }
+    .header-container {
+        background-color: #EDF2EC;
+    }
+
+    /*welcome*/
+    .welcome-section h1{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .welcome-section p {
+        font-size: 13px;
+        line-height: 25px;
+        margin: 21px 0 0 0
+    }
+}

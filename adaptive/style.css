@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+body a {
+    text-decoration: none;
+}
+        /* Style header */
+.header-container, .main-container-welcome {
+    background-color: #EDF2EC;
+}
+.header-content-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 42px 109px;
+    box-sizing: border-box;    
+}
+.header-content {
+    display: grid;
+    height: 50px;
+    grid-template-columns: 1fr 5fr 0fr;
+}
+.header-menu {
+    display: none;
+    width: 40px;
+    height: 26px;
+    background-image: url(img/burger.png);
+}
+.header-logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo-header-img {
+    width: 20px;
+    height: 20px;
+    margin: 0 3px 8px 0;
+}
+.logo-header {
+    margin: 0;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+.nav li {
+    margin: 0 1px 0 45px;
+}
+.nav li a {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: #010201;
+    transition-duration: 500ms;
+}
+.nav li a:hover {
+    font-weight: 700;
+    color: #E06733;
+}
+
+        /* Style main */
+            /*welcome section*/
+.welcome-container-content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 62px 109px;
+    box-sizing: border-box;   
+}
+.welcome-content {
+    display: flex;
+}
+.welcome-img{
+    margin: -5px 0 0 -5px;
+    width: 50%;
+}
+.welcome-learn-content {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.welcome-section {
+    width: 549px;
+}
+.welcome-section h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    margin: 36px 0 0 6px;
+}
+.welcome-section h1 span {
+    color: #499A18;
+}
+.welcome-section p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    margin: 44px 0 0 7px;
+}
+.welcome-section button {
+    width: 158px;
+    height: 44px;
+    margin: 48px 0 0 8px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    transition-duration: 500ms;
+}
+.welcome-section button:hover {
+    background-color: #E06733;
+    cursor: pointer;
+}
